@@ -132,7 +132,7 @@ main img {
 
 main img.pequena {
     max-width: 350px;
-    display: block; /* POR PADRÃO A IMG NÃO É UM BLOCO, POR ISSO A DECLARAÇÃO DO DISPLAY P/ QUE O MARGIN SEJA AUTO (CENTRALIZADO) */
+    display: block;
     margin: auto;
 }
 
@@ -168,7 +168,7 @@ aside h3 {
 
 aside ul {
     list-style-type: '\2714\00A0\00A0'; /* \00A0 CODIGO DE ESPAÇAMENTO */
-    list-style-position: inside; /* FORÇA AS BOLINHAS P/ DENTRO DO BLOCO */
+    list-style-position: inside;
     columns: 2;
 }
 
